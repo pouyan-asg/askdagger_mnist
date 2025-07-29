@@ -134,5 +134,5 @@ This work uses code from the TorchUncertainty open-source project.
 #### TorchUncertainty
 Original:  [https://github.com/torch-uncertainty/torch-uncertainty](https://github.com/torch-uncertainty/torch-uncertainty)  
 License: [Apache 2.0](https://github.com/torch-uncertainty/torch-uncertainty/blob/main/LICENSE)    
-Changes: Our main training script is adapted from this [tutorial](https://torch-uncertainty.github.io/auto_tutorials/tutorial_mc_dropout.html#sphx-glr-auto-tutorials-tutorial-mc-dropout-py).
+Changes: Our main training script is adapted from this [tutorial](https://torch-uncertainty.github.io/auto_tutorials/Classification/tutorial_classification.html#sphx-glr-auto-tutorials-classification-tutorial-classification-py).
 The data modules are modified to allow for interactive training with a subset of the MNIST dataset.
