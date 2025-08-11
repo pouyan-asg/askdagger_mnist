@@ -33,7 +33,7 @@ cd askdagger_mnist
 Create a virtual environment:
 
 ```bash
-uv venv
+uv venv --python 3.10
 ```
 
 Source the virtual environment:
