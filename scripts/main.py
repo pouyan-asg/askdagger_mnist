@@ -22,5 +22,6 @@ if __name__ == "__main__":
                     {"iteration": i, "s_des": s_des, "accelerator": args.accelerator, "overwrite": args.overwrite, "mode": mode}
                 )
 
+    print(train_kwargs)
     for i in range(len(train_kwargs)):
         train(**train_kwargs[i])
