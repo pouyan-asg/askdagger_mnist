@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/./scripts/main.py", line 27, in <module>
+    train(**train_kwargs[i])
+  File "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/src/askdagger_mnist/train.py", line 64, in train
+    sample_datamodule = CustomMNISTDataModule(root=data_root, batch_size=batch_size)
+  File "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/src/askdagger_mnist/datamodule.py", line 68, in __init__
+    super().__init__(
+TypeError: TUDataModule.__init__() missing 1 required positional argument: 'eval_batch_size'

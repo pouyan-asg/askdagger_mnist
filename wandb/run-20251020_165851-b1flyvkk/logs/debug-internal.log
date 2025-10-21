@@ -1,0 +1,12 @@
+{"time":"2025-10-20T16:58:51.921957772-04:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-20T16:58:52.160965916-04:00","level":"INFO","msg":"stream: created new stream","id":"b1flyvkk"}
+{"time":"2025-10-20T16:58:52.161083918-04:00","level":"INFO","msg":"handler: started","stream_id":"b1flyvkk"}
+{"time":"2025-10-20T16:58:52.161136332-04:00","level":"INFO","msg":"stream: started","id":"b1flyvkk"}
+{"time":"2025-10-20T16:58:52.161153189-04:00","level":"INFO","msg":"sender: started","stream_id":"b1flyvkk"}
+{"time":"2025-10-20T16:58:52.161164916-04:00","level":"INFO","msg":"writer: started","stream_id":"b1flyvkk"}
+{"time":"2025-10-20T17:00:57.278584373-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.001287258}],"total_operations":1}}
+{"time":"2025-10-20T17:00:57.757143162-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-20T17:00:57.962030995-04:00","level":"INFO","msg":"stream: closing","id":"b1flyvkk"}
+{"time":"2025-10-20T17:00:57.962058016-04:00","level":"INFO","msg":"handler: closed","stream_id":"b1flyvkk"}
+{"time":"2025-10-20T17:00:57.962170142-04:00","level":"INFO","msg":"sender: closed","stream_id":"b1flyvkk"}
+{"time":"2025-10-20T17:00:57.96220021-04:00","level":"INFO","msg":"stream: closed","id":"b1flyvkk"}

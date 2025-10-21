@@ -1,0 +1,2359 @@
+step: 0
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 1
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.07
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 2
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 3
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 4
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.94
+--------------------------------------------------------------------------------
+
+  | Name                | Type                | Params | Mode
+--------------------------------------------------------------------
+0 | ood_criterion       | MaxSoftmaxCriterion | 0      | train
+1 | model               | _MCDropout          | 44.4 K | train
+2 | loss                | CrossEntropyLoss    | 0      | train
+3 | format_batch_fn     | Identity            | 0      | train
+4 | val_cls_metrics     | MetricCollection    | 0      | train
+5 | test_cls_metrics    | MetricCollection    | 0      | train
+6 | test_id_entropy     | Entropy             | 0      | train
+7 | test_id_ens_metrics | MetricCollection    | 0      | train
+8 | mixup               | Identity            | 0      | train
+--------------------------------------------------------------------
+44.4 K    Trainable params
+0         Non-trainable params
+44.4 K    Total params
+0.178     Total estimated model params size (MB)
+42        Modules in train mode
+0         Modules in eval mode
+step: 5
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.05
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 6
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.08
+query rate: 0.85
+--------------------------------------------------------------------------------
+step: 7
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 8
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.09
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 9
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.08
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 10
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.14
+query rate: 0.87
+--------------------------------------------------------------------------------
+step: 11
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.11
+query rate: 0.87
+--------------------------------------------------------------------------------
+step: 12
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.12
+query rate: 0.86
+--------------------------------------------------------------------------------
+step: 13
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.11
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 14
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.10
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 15
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.08
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 16
+succes rate - system: 0.79, minimum desired: 0.90
+Novice success rate: 0.15
+query rate: 0.72
+--------------------------------------------------------------------------------
+step: 17
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.16
+query rate: 0.90
+--------------------------------------------------------------------------------
+step: 18
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.14
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 19
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.18
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 20
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.07
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 21
+succes rate - system: 0.99, minimum desired: 0.90
+Novice success rate: 0.24
+query rate: 0.99
+--------------------------------------------------------------------------------
+step: 22
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.24
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 23
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.23
+query rate: 0.81
+--------------------------------------------------------------------------------
+step: 24
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.28
+query rate: 0.79
+--------------------------------------------------------------------------------
+step: 25
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.29
+query rate: 0.81
+--------------------------------------------------------------------------------
+step: 26
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.35
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 27
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.30
+query rate: 0.86
+--------------------------------------------------------------------------------
+step: 28
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.29
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 29
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.31
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 30
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.33
+query rate: 0.80
+--------------------------------------------------------------------------------
+step: 31
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.38
+query rate: 0.80
+--------------------------------------------------------------------------------
+step: 32
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.50
+query rate: 0.73
+--------------------------------------------------------------------------------
+step: 33
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.47
+query rate: 0.75
+--------------------------------------------------------------------------------
+step: 34
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.41
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 35
+succes rate - system: 0.83, minimum desired: 0.90
+Novice success rate: 0.45
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 36
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.59
+query rate: 0.74
+--------------------------------------------------------------------------------
+step: 37
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.49
+query rate: 0.76
+--------------------------------------------------------------------------------
+step: 38
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.48
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 39
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.52
+query rate: 0.71
+--------------------------------------------------------------------------------
+step: 40
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.41
+query rate: 0.75
+--------------------------------------------------------------------------------
+step: 41
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.54
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 42
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 43
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.53
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 44
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.52
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 45
+succes rate - system: 0.83, minimum desired: 0.90
+Novice success rate: 0.55
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 46
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 47
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.68
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 48
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 49
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.66
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 50
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.65
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 51
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.57
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 52
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.55
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 53
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.46
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 54
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 55
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.61
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 56
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.59
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 57
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 58
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 59
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.59
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 60
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.57
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 61
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.73
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 62
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 63
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.39
+--------------------------------------------------------------------------------
+step: 64
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 65
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 66
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.66
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 67
+succes rate - system: 0.82, minimum desired: 0.90
+Novice success rate: 0.64
+query rate: 0.35
+--------------------------------------------------------------------------------
+step: 68
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.71
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 69
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 70
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 71
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.66
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 72
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.66
+query rate: 0.39
+--------------------------------------------------------------------------------
+step: 73
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 74
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.63
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 75
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 76
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.55
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 77
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.61
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 78
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.59
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 79
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.63
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 80
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.63
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 81
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 82
+succes rate - system: 0.98, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 83
+succes rate - system: 0.82, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.33
+--------------------------------------------------------------------------------
+step: 84
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.35
+--------------------------------------------------------------------------------
+step: 85
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.62
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 86
+succes rate - system: 0.81, minimum desired: 0.90
+Novice success rate: 0.61
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 87
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 88
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.61
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 89
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.71
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 90
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.68
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 91
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.68
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 92
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.73
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 93
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 94
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.71
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 95
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.67
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 96
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.61
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 97
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 98
+succes rate - system: 0.77, minimum desired: 0.90
+Novice success rate: 0.60
+query rate: 0.33
+--------------------------------------------------------------------------------
+step: 99
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.70
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 100
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 101
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 102
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 103
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.73
+query rate: 0.33
+--------------------------------------------------------------------------------
+step: 104
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 105
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 106
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 107
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 108
+succes rate - system: 0.80, minimum desired: 0.90
+Novice success rate: 0.64
+query rate: 0.26
+--------------------------------------------------------------------------------
+step: 109
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.71
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 110
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 111
+succes rate - system: 0.82, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 112
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 113
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 114
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.73
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 115
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 116
+succes rate - system: 0.83, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 117
+succes rate - system: 0.80, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 118
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 119
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 120
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 121
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 122
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 123
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 124
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 125
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 126
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 127
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 128
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 129
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 130
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 131
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 132
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 133
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 134
+succes rate - system: 0.76, minimum desired: 0.90
+Novice success rate: 0.74
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 135
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 136
+succes rate - system: 0.81, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 137
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 138
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 139
+succes rate - system: 0.79, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 140
+succes rate - system: 0.77, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 141
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 142
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.24
+--------------------------------------------------------------------------------
+step: 143
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 144
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 145
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 146
+succes rate - system: 0.80, minimum desired: 0.90
+Novice success rate: 0.69
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 147
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 148
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.71
+query rate: 0.28
+--------------------------------------------------------------------------------
+step: 149
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.72
+query rate: 0.24
+--------------------------------------------------------------------------------
+step: 150
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.32
+--------------------------------------------------------------------------------
+step: 151
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 152
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 153
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 154
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.31
+--------------------------------------------------------------------------------
+step: 155
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 156
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 157
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 158
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 159
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 160
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 161
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 162
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.73
+query rate: 0.26
+--------------------------------------------------------------------------------
+step: 163
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 164
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.24
+--------------------------------------------------------------------------------
+step: 165
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 166
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 167
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 168
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 169
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 170
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 171
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 172
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.31
+--------------------------------------------------------------------------------
+step: 173
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.32
+--------------------------------------------------------------------------------
+step: 174
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.35
+--------------------------------------------------------------------------------
+step: 175
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.30
+--------------------------------------------------------------------------------
+step: 176
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.33
+--------------------------------------------------------------------------------
+step: 177
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 178
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.31
+--------------------------------------------------------------------------------
+step: 179
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 180
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 181
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 182
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 183
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.31
+--------------------------------------------------------------------------------
+step: 184
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 185
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 186
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 187
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.26
+--------------------------------------------------------------------------------
+step: 188
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 189
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 190
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 191
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 192
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.33
+--------------------------------------------------------------------------------
+step: 193
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 194
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.24
+--------------------------------------------------------------------------------
+step: 195
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 196
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 197
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 198
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 199
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 200
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 201
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 202
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 203
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 204
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 205
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 206
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 207
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.24
+--------------------------------------------------------------------------------
+step: 208
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 209
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 210
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 211
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 212
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 213
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 214
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.94
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 215
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 216
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 217
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 218
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 219
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 220
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 221
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 222
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 223
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 224
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 225
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 226
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 227
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 228
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 229
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 230
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 231
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 232
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 233
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 234
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 235
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 236
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 237
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 238
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 239
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 240
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 241
+succes rate - system: 0.97, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.36
+--------------------------------------------------------------------------------
+step: 242
+succes rate - system: 0.98, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.39
+--------------------------------------------------------------------------------
+step: 243
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.36
+--------------------------------------------------------------------------------
+step: 244
+succes rate - system: 0.97, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.36
+--------------------------------------------------------------------------------
+step: 245
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 246
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 247
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 248
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 249
+succes rate - system: 0.98, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.32
+--------------------------------------------------------------------------------
+step: 250
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 251
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 252
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 253
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 254
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 255
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 256
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.74
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 257
+succes rate - system: 0.80, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 258
+succes rate - system: 0.83, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 259
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.26
+--------------------------------------------------------------------------------
+step: 260
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.75
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 261
+succes rate - system: 0.97, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 262
+succes rate - system: 0.98, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 263
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 264
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 265
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 266
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 267
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 268
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 269
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 270
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 271
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.06
+--------------------------------------------------------------------------------
+step: 272
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 273
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 274
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 275
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 276
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 277
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 278
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 279
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 280
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 281
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 282
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 283
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 284
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 285
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 286
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 287
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 288
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 289
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 290
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 291
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.28
+--------------------------------------------------------------------------------
+step: 292
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 293
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 294
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 295
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 296
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 297
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 298
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 299
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 300
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.79
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 301
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 302
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.25
+--------------------------------------------------------------------------------
+step: 303
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 304
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 305
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 306
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 307
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 308
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.78
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 309
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.77
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 310
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 311
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 312
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 313
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 314
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 315
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 316
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 317
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 318
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 319
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 320
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 321
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 322
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 323
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 324
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 325
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 326
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 327
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 328
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 329
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 330
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 331
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 332
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 333
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 334
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 335
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 336
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 337
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 338
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 339
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 340
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 341
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 342
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 343
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 344
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 345
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 346
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 347
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 348
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 349
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 350
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 351
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 352
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.21
+--------------------------------------------------------------------------------
+step: 353
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 354
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.22
+--------------------------------------------------------------------------------
+step: 355
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.23
+--------------------------------------------------------------------------------
+step: 356
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 357
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 358
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 359
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 360
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.94
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 361
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 362
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 363
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 364
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 365
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 366
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 367
+succes rate - system: 0.97, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 368
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 369
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 370
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 371
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 372
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.27
+--------------------------------------------------------------------------------
+step: 373
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.20
+--------------------------------------------------------------------------------
+step: 374
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 375
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 376
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 377
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 378
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 379
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 380
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 381
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 382
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 383
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 384
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 385
+succes rate - system: 0.96, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.17
+--------------------------------------------------------------------------------
+step: 386
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 387
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 388
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 389
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 390
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 391
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 392
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 393
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 394
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 395
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 396
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 397
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 398
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 399
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 400
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 401
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 402
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.05
+--------------------------------------------------------------------------------
+step: 403
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 404
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 405
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 406
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 407
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 408
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.95
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 409
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 410
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 411
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 412
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 413
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 414
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 415
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 416
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 417
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 418
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 419
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 420
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.92
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 421
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.87
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 422
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 423
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 424
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 425
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 426
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 427
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 428
+succes rate - system: 0.84, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 429
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 430
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 431
+succes rate - system: 0.86, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 432
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 433
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 434
+succes rate - system: 0.87, minimum desired: 0.90
+Novice success rate: 0.80
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 435
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.82
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 436
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 437
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 438
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 439
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 440
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 441
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.08
+--------------------------------------------------------------------------------
+step: 442
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.14
+--------------------------------------------------------------------------------
+step: 443
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 444
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 445
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 446
+succes rate - system: 0.89, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 447
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 448
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.84
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 449
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 450
+succes rate - system: 0.80, minimum desired: 0.90
+Novice success rate: 0.76
+query rate: 0.18
+--------------------------------------------------------------------------------
+step: 451
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 452
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.11
+--------------------------------------------------------------------------------
+step: 453
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.85
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 454
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.89
+query rate: 0.07
+--------------------------------------------------------------------------------
+step: 455
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 456
+succes rate - system: 0.92, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.16
+--------------------------------------------------------------------------------
+step: 457
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 458
+succes rate - system: 0.81, minimum desired: 0.90
+Novice success rate: 0.81
+query rate: 0.13
+--------------------------------------------------------------------------------
+step: 459
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 460
+succes rate - system: 0.94, minimum desired: 0.90
+Novice success rate: 0.93
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 461
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.91
+query rate: 0.06
+--------------------------------------------------------------------------------
+step: 462
+succes rate - system: 0.85, minimum desired: 0.90
+Novice success rate: 0.83
+query rate: 0.09
+--------------------------------------------------------------------------------
+step: 463
+succes rate - system: 0.93, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.12
+--------------------------------------------------------------------------------
+step: 464
+succes rate - system: 0.88, minimum desired: 0.90
+Novice success rate: 0.86
+query rate: 0.15
+--------------------------------------------------------------------------------
+step: 465
+succes rate - system: 0.95, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.19
+--------------------------------------------------------------------------------
+step: 466
+succes rate - system: 0.90, minimum desired: 0.90
+Novice success rate: 0.88
+query rate: 0.10
+--------------------------------------------------------------------------------
+step: 467
+succes rate - system: 0.91, minimum desired: 0.90
+Novice success rate: 0.90
+query rate: 0.09
+--------------------------------------------------------------------------------

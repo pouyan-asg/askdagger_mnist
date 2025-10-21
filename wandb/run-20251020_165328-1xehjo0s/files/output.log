@@ -1,0 +1,2363 @@
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 9.91M/9.91M [00:03<00:00, 2.59MB/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 28.9k/28.9k [00:00<00:00, 886kB/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 1.65M/1.65M [00:00<00:00, 2.58MB/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 4.54k/4.54k [00:00<00:00, 3.47MB/s]
+step: 0
+sensitivity - total: 0.93, window: 0.93 desired: 0.90
+succes rate - system: 0.94, novice: 0.09
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 1
+sensitivity - total: 0.92, window: 0.92 desired: 0.90
+succes rate - system: 0.91, novice: 0.09
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 2
+sensitivity - total: 0.92, window: 0.92 desired: 0.90
+succes rate - system: 0.92, novice: 0.07
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 3
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.90, novice: 0.09
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 4
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.91, novice: 0.12
+query rate: 0.90
+--------------------------------------------------------------------------------
+
+  | Name                | Type                | Params | Mode
+--------------------------------------------------------------------
+0 | ood_criterion       | MaxSoftmaxCriterion | 0      | train
+1 | model               | _MCDropout          | 44.4 K | train
+2 | loss                | CrossEntropyLoss    | 0      | train
+3 | format_batch_fn     | Identity            | 0      | train
+4 | val_cls_metrics     | MetricCollection    | 0      | train
+5 | test_cls_metrics    | MetricCollection    | 0      | train
+6 | test_id_entropy     | Entropy             | 0      | train
+7 | test_id_ens_metrics | MetricCollection    | 0      | train
+8 | mixup               | Identity            | 0      | train
+--------------------------------------------------------------------
+44.4 K    Trainable params
+0         Non-trainable params
+44.4 K    Total params
+0.178     Total estimated model params size (MB)
+42        Modules in train mode
+0         Modules in eval mode
+step: 5
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.93, novice: 0.14
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 6
+sensitivity - total: 0.92, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.16
+query rate: 1.00
+--------------------------------------------------------------------------------
+step: 7
+sensitivity - total: 0.92, window: 0.92 desired: 0.90
+succes rate - system: 0.90, novice: 0.12
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 8
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.91, novice: 0.09
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 9
+sensitivity - total: 0.92, window: 0.91 desired: 0.90
+succes rate - system: 0.95, novice: 0.12
+query rate: 0.94
+--------------------------------------------------------------------------------
+step: 10
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.90, novice: 0.15
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 11
+sensitivity - total: 0.90, window: 0.90 desired: 0.90
+succes rate - system: 0.80, novice: 0.15
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 12
+sensitivity - total: 0.90, window: 0.90 desired: 0.90
+succes rate - system: 0.93, novice: 0.12
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 13
+sensitivity - total: 0.90, window: 0.90 desired: 0.90
+succes rate - system: 0.89, novice: 0.11
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 14
+sensitivity - total: 0.90, window: 0.90 desired: 0.90
+succes rate - system: 0.94, novice: 0.12
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 15
+sensitivity - total: 0.90, window: 0.89 desired: 0.90
+succes rate - system: 0.94, novice: 0.15
+query rate: 0.92
+--------------------------------------------------------------------------------
+step: 16
+sensitivity - total: 0.91, window: 0.90 desired: 0.90
+succes rate - system: 0.93, novice: 0.16
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 17
+sensitivity - total: 0.91, window: 0.90 desired: 0.90
+succes rate - system: 0.95, novice: 0.21
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 18
+sensitivity - total: 0.91, window: 0.90 desired: 0.90
+succes rate - system: 0.92, novice: 0.15
+query rate: 0.85
+--------------------------------------------------------------------------------
+step: 19
+sensitivity - total: 0.91, window: 0.90 desired: 0.90
+succes rate - system: 0.92, novice: 0.18
+query rate: 0.89
+--------------------------------------------------------------------------------
+step: 20
+sensitivity - total: 0.90, window: 0.91 desired: 0.90
+succes rate - system: 0.87, novice: 0.10
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 21
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.12
+query rate: 0.96
+--------------------------------------------------------------------------------
+step: 22
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.91, novice: 0.06
+query rate: 0.90
+--------------------------------------------------------------------------------
+step: 23
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.96, novice: 0.09
+query rate: 0.95
+--------------------------------------------------------------------------------
+step: 24
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.93, novice: 0.10
+query rate: 0.92
+--------------------------------------------------------------------------------
+step: 25
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.94, novice: 0.15
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 26
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.88, novice: 0.09
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 27
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.95, novice: 0.16
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 28
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.90, novice: 0.09
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 29
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.94, novice: 0.09
+query rate: 0.93
+--------------------------------------------------------------------------------
+step: 30
+sensitivity - total: 0.91, window: 0.92 desired: 0.90
+succes rate - system: 0.92, novice: 0.08
+query rate: 0.91
+--------------------------------------------------------------------------------
+step: 31
+sensitivity - total: 0.91, window: 0.91 desired: 0.90
+succes rate - system: 0.90, novice: 0.38
+query rate: 0.76
+--------------------------------------------------------------------------------
+step: 32
+sensitivity - total: 0.90, window: 0.89 desired: 0.90
+succes rate - system: 0.83, novice: 0.27
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 33
+sensitivity - total: 0.90, window: 0.88 desired: 0.90
+succes rate - system: 0.84, novice: 0.35
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 34
+sensitivity - total: 0.90, window: 0.86 desired: 0.90
+succes rate - system: 0.82, novice: 0.33
+query rate: 0.68
+--------------------------------------------------------------------------------
+step: 35
+sensitivity - total: 0.89, window: 0.84 desired: 0.90
+succes rate - system: 0.84, novice: 0.45
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 36
+sensitivity - total: 0.89, window: 0.84 desired: 0.90
+succes rate - system: 0.86, novice: 0.46
+query rate: 0.68
+--------------------------------------------------------------------------------
+step: 37
+sensitivity - total: 0.89, window: 0.84 desired: 0.90
+succes rate - system: 0.92, novice: 0.38
+query rate: 0.75
+--------------------------------------------------------------------------------
+step: 38
+sensitivity - total: 0.89, window: 0.83 desired: 0.90
+succes rate - system: 0.94, novice: 0.40
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 39
+sensitivity - total: 0.89, window: 0.83 desired: 0.90
+succes rate - system: 0.93, novice: 0.43
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 40
+sensitivity - total: 0.89, window: 0.83 desired: 0.90
+succes rate - system: 0.93, novice: 0.35
+query rate: 0.82
+--------------------------------------------------------------------------------
+step: 41
+sensitivity - total: 0.89, window: 0.82 desired: 0.90
+succes rate - system: 0.85, novice: 0.40
+query rate: 0.74
+--------------------------------------------------------------------------------
+step: 42
+sensitivity - total: 0.89, window: 0.81 desired: 0.90
+succes rate - system: 0.94, novice: 0.41
+query rate: 0.84
+--------------------------------------------------------------------------------
+step: 43
+sensitivity - total: 0.89, window: 0.82 desired: 0.90
+succes rate - system: 0.95, novice: 0.45
+query rate: 0.87
+--------------------------------------------------------------------------------
+step: 44
+sensitivity - total: 0.89, window: 0.82 desired: 0.90
+succes rate - system: 0.94, novice: 0.32
+query rate: 0.88
+--------------------------------------------------------------------------------
+step: 45
+sensitivity - total: 0.89, window: 0.83 desired: 0.90
+succes rate - system: 0.92, novice: 0.32
+query rate: 0.87
+--------------------------------------------------------------------------------
+step: 46
+sensitivity - total: 0.89, window: 0.85 desired: 0.90
+succes rate - system: 1.00, novice: 0.52
+query rate: 0.86
+--------------------------------------------------------------------------------
+step: 47
+sensitivity - total: 0.89, window: 0.86 desired: 0.90
+succes rate - system: 0.91, novice: 0.50
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 48
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.92, novice: 0.51
+query rate: 0.68
+--------------------------------------------------------------------------------
+step: 49
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.96, novice: 0.47
+query rate: 0.75
+--------------------------------------------------------------------------------
+step: 50
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.95, novice: 0.54
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 51
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.91, novice: 0.45
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 52
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.92, novice: 0.35
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 53
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.90, novice: 0.40
+query rate: 0.80
+--------------------------------------------------------------------------------
+step: 54
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.94, novice: 0.39
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 55
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.92, novice: 0.40
+query rate: 0.73
+--------------------------------------------------------------------------------
+step: 56
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.52
+query rate: 0.78
+--------------------------------------------------------------------------------
+step: 57
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.90, novice: 0.54
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 58
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.94, novice: 0.59
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 59
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.96, novice: 0.52
+query rate: 0.73
+--------------------------------------------------------------------------------
+step: 60
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.48
+query rate: 0.71
+--------------------------------------------------------------------------------
+step: 61
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.93, novice: 0.56
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 62
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.58
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 63
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.51
+query rate: 0.71
+--------------------------------------------------------------------------------
+step: 64
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.60
+query rate: 0.72
+--------------------------------------------------------------------------------
+step: 65
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.51
+query rate: 0.79
+--------------------------------------------------------------------------------
+step: 66
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.60
+query rate: 0.74
+--------------------------------------------------------------------------------
+step: 67
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.91, novice: 0.52
+query rate: 0.68
+--------------------------------------------------------------------------------
+step: 68
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.96, novice: 0.56
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 69
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.95, novice: 0.60
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 70
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.56
+query rate: 0.69
+--------------------------------------------------------------------------------
+step: 71
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.95, novice: 0.66
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 72
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.70
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 73
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.66
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 74
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.95, novice: 0.58
+query rate: 0.71
+--------------------------------------------------------------------------------
+step: 75
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.97, novice: 0.62
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 76
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.63
+query rate: 0.67
+--------------------------------------------------------------------------------
+step: 77
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.69
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 78
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.69
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 79
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.92, novice: 0.65
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 80
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.97, novice: 0.74
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 81
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.93, novice: 0.71
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 82
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.68
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 83
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.93, novice: 0.64
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 84
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.92, novice: 0.69
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 85
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.95, novice: 0.67
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 86
+sensitivity - total: 0.88, window: 0.87 desired: 0.90
+succes rate - system: 0.95, novice: 0.71
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 87
+sensitivity - total: 0.88, window: 0.87 desired: 0.90
+succes rate - system: 0.98, novice: 0.73
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 88
+sensitivity - total: 0.88, window: 0.87 desired: 0.90
+succes rate - system: 0.96, novice: 0.67
+query rate: 0.69
+--------------------------------------------------------------------------------
+step: 89
+sensitivity - total: 0.88, window: 0.87 desired: 0.90
+succes rate - system: 0.97, novice: 0.71
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 90
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.99, novice: 0.77
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 91
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.69
+query rate: 0.71
+--------------------------------------------------------------------------------
+step: 92
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.68
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 93
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 94
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.96, novice: 0.75
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 95
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.96, novice: 0.73
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 96
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.73
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 97
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.71
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 98
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.75
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 99
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.80
+query rate: 0.77
+--------------------------------------------------------------------------------
+step: 100
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.77
+query rate: 0.75
+--------------------------------------------------------------------------------
+step: 101
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.76
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 102
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.70
+query rate: 0.69
+--------------------------------------------------------------------------------
+step: 103
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.75
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 104
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.70
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 105
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.76
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 106
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.79
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 107
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 108
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.97, novice: 0.73
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 109
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.74
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 110
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 111
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.70
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 112
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.85
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 113
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.95, novice: 0.78
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 114
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.79
+query rate: 0.68
+--------------------------------------------------------------------------------
+step: 115
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 116
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.79
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 117
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.92, novice: 0.73
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 118
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.77
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 119
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 120
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.74
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 121
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.82
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 122
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.80
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 123
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 124
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 125
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 126
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 127
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.75
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 128
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 129
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 130
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 131
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 132
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.78
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 133
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 134
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 135
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.95, novice: 0.85
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 136
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.79
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 137
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 138
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.75
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 139
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.96, novice: 0.79
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 140
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.75
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 141
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.79
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 142
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.78
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 143
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.77
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 144
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 145
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.82
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 146
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.96, novice: 0.79
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 147
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 148
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 149
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.83
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 150
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.74
+--------------------------------------------------------------------------------
+step: 151
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 152
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 153
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.83
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 154
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 155
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.81
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 156
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 157
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.81
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 158
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.77
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 159
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 160
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 161
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 162
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 163
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 164
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.96, novice: 0.81
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 165
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 166
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.81
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 167
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.79
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 168
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 169
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.95, novice: 0.82
+query rate: 0.29
+--------------------------------------------------------------------------------
+step: 170
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.93, novice: 0.80
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 171
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.91, novice: 0.75
+query rate: 0.36
+--------------------------------------------------------------------------------
+step: 172
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.80
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 173
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 174
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.97, novice: 0.83
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 175
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 176
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 177
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 178
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 179
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.94, novice: 0.77
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 180
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.97, novice: 0.79
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 181
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 182
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.94
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 183
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 184
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 185
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 186
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 187
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 188
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.77
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 189
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 190
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.81
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 191
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.94
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 192
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 193
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 194
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 195
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.88
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 196
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.85
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 197
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.89
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 198
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 199
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 200
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 201
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.77
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 202
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 203
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 204
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.69
+--------------------------------------------------------------------------------
+step: 205
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 206
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 207
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.80
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 208
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.80
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 209
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 210
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 211
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.81
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 212
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 213
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.86
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 214
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.85
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 215
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.70
+--------------------------------------------------------------------------------
+step: 216
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.79
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 217
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.79
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 218
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 219
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 220
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 221
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.91
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 222
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 223
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 224
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 225
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.80
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 226
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.92, novice: 0.82
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 227
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.95, novice: 0.86
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 228
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.82
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 229
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.82
+query rate: 0.39
+--------------------------------------------------------------------------------
+step: 230
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.94, novice: 0.79
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 231
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 232
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.81
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 233
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 234
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 235
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 236
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.86
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 237
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 238
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 239
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 240
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 241
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 242
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 243
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 244
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 245
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.80
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 246
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 247
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 248
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.91
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 249
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 250
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 251
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 252
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 253
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 254
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 255
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 256
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 257
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.92
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 258
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 259
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 260
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 261
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 262
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.82
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 263
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 264
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.97, novice: 0.84
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 265
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 266
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.97, novice: 0.80
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 267
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 268
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 269
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 270
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 271
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 272
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 273
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 274
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 275
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.86
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 276
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 277
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.80
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 278
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.97, novice: 0.84
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 279
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 280
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 281
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 282
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 283
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 284
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 285
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 286
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 287
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.79
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 288
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 289
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.85
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 290
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 291
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 292
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 293
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.83
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 294
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.80
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 295
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.78
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 296
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 297
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 298
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.80
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 299
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 300
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 301
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 302
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.96, novice: 0.81
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 303
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 304
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.66
+--------------------------------------------------------------------------------
+step: 305
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 306
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 307
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 308
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.80
+query rate: 0.61
+--------------------------------------------------------------------------------
+step: 309
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 310
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.80
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 311
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 312
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.91
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 313
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 314
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 315
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 316
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.91
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 317
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 318
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 319
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.95, novice: 0.84
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 320
+sensitivity - total: 0.89, window: 0.93 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 321
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.89
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 322
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 323
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 324
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 325
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.96, novice: 0.85
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 326
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.96, novice: 0.80
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 327
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 328
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.91
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 329
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.89
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 330
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.91
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 331
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 332
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 333
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 334
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.92
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 335
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.93
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 336
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 337
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.79
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 338
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.84
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 339
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.82
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 340
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.97, novice: 0.83
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 341
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 342
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.84
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 343
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 344
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.97, novice: 0.88
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 345
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 346
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 347
+sensitivity - total: 0.89, window: 0.92 desired: 0.90
+succes rate - system: 1.00, novice: 0.83
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 348
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.97, novice: 0.86
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 349
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 350
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.91
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 351
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.86
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 352
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.77
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 353
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 354
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 355
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 356
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.39
+--------------------------------------------------------------------------------
+step: 357
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.95
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 358
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.93
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 359
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.94
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 360
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.90
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 361
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 362
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.92
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 363
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 364
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 365
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.87
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 366
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 367
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 368
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 369
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 370
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 371
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.86
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 372
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 373
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 374
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.53
+--------------------------------------------------------------------------------
+step: 375
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 376
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.58
+--------------------------------------------------------------------------------
+step: 377
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.83
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 378
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.97, novice: 0.80
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 379
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.85
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 380
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 381
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 382
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 383
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.82
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 384
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 385
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 386
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 387
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.96, novice: 0.84
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 388
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.95, novice: 0.88
+query rate: 0.40
+--------------------------------------------------------------------------------
+step: 389
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.97, novice: 0.84
+query rate: 0.35
+--------------------------------------------------------------------------------
+step: 390
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.96, novice: 0.88
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 391
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.35
+--------------------------------------------------------------------------------
+step: 392
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 393
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.82
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 394
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.87
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 395
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 396
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 397
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 398
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 399
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 400
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 401
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.96, novice: 0.80
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 402
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.94, novice: 0.78
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 403
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 404
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.83
+query rate: 0.69
+--------------------------------------------------------------------------------
+step: 405
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.85
+query rate: 0.73
+--------------------------------------------------------------------------------
+step: 406
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.73
+--------------------------------------------------------------------------------
+step: 407
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.65
+--------------------------------------------------------------------------------
+step: 408
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.60
+--------------------------------------------------------------------------------
+step: 409
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.62
+--------------------------------------------------------------------------------
+step: 410
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 411
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.91
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 412
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 413
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.90
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 414
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 415
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.90
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 416
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 417
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 418
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.78
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 419
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.54
+--------------------------------------------------------------------------------
+step: 420
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.82
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 421
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 422
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 423
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.85
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 424
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.95, novice: 0.87
+query rate: 0.34
+--------------------------------------------------------------------------------
+step: 425
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.46
+--------------------------------------------------------------------------------
+step: 426
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 427
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.36
+--------------------------------------------------------------------------------
+step: 428
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.96, novice: 0.86
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 429
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 430
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 431
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.38
+--------------------------------------------------------------------------------
+step: 432
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.97, novice: 0.89
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 433
+sensitivity - total: 0.89, window: 0.87 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 434
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.51
+--------------------------------------------------------------------------------
+step: 435
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 436
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 1.00, novice: 0.92
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 437
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 438
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 439
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.89
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 440
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.81
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 441
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.88
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 442
+sensitivity - total: 0.89, window: 0.88 desired: 0.90
+succes rate - system: 0.98, novice: 0.89
+query rate: 0.42
+--------------------------------------------------------------------------------
+step: 443
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 1.00, novice: 0.89
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 444
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.88
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 445
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 446
+sensitivity - total: 0.89, window: 0.89 desired: 0.90
+succes rate - system: 0.99, novice: 0.91
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 447
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 448
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.81
+query rate: 0.49
+--------------------------------------------------------------------------------
+step: 449
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.87
+query rate: 0.52
+--------------------------------------------------------------------------------
+step: 450
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 451
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.87
+query rate: 0.45
+--------------------------------------------------------------------------------
+step: 452
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.84
+query rate: 0.41
+--------------------------------------------------------------------------------
+step: 453
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.85
+query rate: 0.57
+--------------------------------------------------------------------------------
+step: 454
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.94
+query rate: 0.43
+--------------------------------------------------------------------------------
+step: 455
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.88
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 456
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.96, novice: 0.84
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 457
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.98, novice: 0.89
+query rate: 0.44
+--------------------------------------------------------------------------------
+step: 458
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.97, novice: 0.80
+query rate: 0.48
+--------------------------------------------------------------------------------
+step: 459
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 0.99, novice: 0.90
+query rate: 0.47
+--------------------------------------------------------------------------------
+step: 460
+sensitivity - total: 0.89, window: 0.90 desired: 0.90
+succes rate - system: 1.00, novice: 0.91
+query rate: 0.59
+--------------------------------------------------------------------------------
+step: 461
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 1.00, novice: 0.79
+query rate: 0.63
+--------------------------------------------------------------------------------
+step: 462
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.86
+query rate: 0.64
+--------------------------------------------------------------------------------
+step: 463
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.56
+--------------------------------------------------------------------------------
+step: 464
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.79
+query rate: 0.55
+--------------------------------------------------------------------------------
+step: 465
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.50
+--------------------------------------------------------------------------------
+step: 466
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.98, novice: 0.84
+query rate: 0.67
+--------------------------------------------------------------------------------
+step: 467
+sensitivity - total: 0.89, window: 0.91 desired: 0.90
+succes rate - system: 0.99, novice: 0.83
+query rate: 0.60
+--------------------------------------------------------------------------------

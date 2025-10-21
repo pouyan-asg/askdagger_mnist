@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/askdagger_mnist/__init__.py
+src/askdagger_mnist/datamodule.py
+src/askdagger_mnist/sag.py
+src/askdagger_mnist/train.py
+src/askdagger_mnist/utils.py
+src/askdagger_mnist.egg-info/PKG-INFO
+src/askdagger_mnist.egg-info/SOURCES.txt
+src/askdagger_mnist.egg-info/dependency_links.txt
+src/askdagger_mnist.egg-info/requires.txt
+src/askdagger_mnist.egg-info/top_level.txt

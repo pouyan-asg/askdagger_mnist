@@ -1,0 +1,82 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            dvzasgrgd73h63wyx19i7ampmpxyi9vy:
+                args:
+                    - --reps
+                    - "2"
+                    - --s_des
+                    - "0.9"
+                codePath: scripts/main.py
+                codePathLocal: scripts/main.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "290752806912"
+                        used: "260714209280"
+                email: pouyan.asgharian@yahoo.com
+                executable: /home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/askenv/bin/python
+                git:
+                    commit: 67e6a1afbb5fd8d8878da9d491b370b9ea2abc17
+                    remote: https://github.com/askdagger/askdagger_mnist.git
+                gpu: NVIDIA GeForce GTX 1650 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 1024
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650 Ti
+                      uuid: GPU-e8f597c9-46ee-7653-bab1-1a5a4a7305f0
+                host: pouyan-XPS-15-9500
+                memory:
+                    total: "33382006784"
+                os: Linux-5.15.0-139-generic-x86_64-with-glibc2.31
+                program: /home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/./scripts/main.py
+                python: CPython 3.10.18
+                root: /home/pouyan/phd/imitation_learning/vlm/askdagger_mnist
+                startedAt: "2025-10-20T21:02:37.699685Z"
+                writerId: dvzasgrgd73h63wyx19i7ampmpxyi9vy
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 63
+                - 106
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 63
+                - 106
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.18
+            "5": 0.22.2
+            "12": 0.22.2
+            "13": linux-x86_64
+batch_size:
+    value: 128
+impute:
+    value: true
+iteration:
+    value: 1
+p_rand:
+    value: 0.1
+s_des:
+    value: 0.9
+u_normalization:
+    value: true
+update_every:
+    value: 5

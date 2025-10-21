@@ -1,0 +1,46 @@
+{
+  "os": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-10-20T20:58:51.919903Z",
+  "args": [
+    "--reps",
+    "2",
+    "--s_des",
+    "0.9"
+  ],
+  "program": "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/./scripts/main.py",
+  "codePath": "scripts/main.py",
+  "codePathLocal": "scripts/main.py",
+  "git": {
+    "remote": "https://github.com/askdagger/askdagger_mnist.git",
+    "commit": "67e6a1afbb5fd8d8878da9d491b370b9ea2abc17"
+  },
+  "email": "pouyan.asgharian@yahoo.com",
+  "root": "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist",
+  "host": "pouyan-XPS-15-9500",
+  "executable": "/home/pouyan/phd/imitation_learning/vlm/askdagger_mnist/askenv/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "290752806912",
+      "used": "260704235520"
+    }
+  },
+  "memory": {
+    "total": "33382006784"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650 Ti",
+      "memoryTotal": "4294967296",
+      "cudaCores": 1024,
+      "architecture": "Turing",
+      "uuid": "GPU-e8f597c9-46ee-7653-bab1-1a5a4a7305f0"
+    }
+  ],
+  "cudaVersion": "12.5",
+  "writerId": "tkqvfcrffeanej7380ogdkyd7nd2nbgx"
+}
