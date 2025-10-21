@@ -5,7 +5,7 @@ from torch import nn
 from pathlib import Path
 
 from torch_uncertainty import TUTrainer
-from torch_uncertainty.models.lenet import lenet
+from torch_uncertainty.models.classification.lenet import lenet
 from torch_uncertainty.models import mc_dropout
 from torch_uncertainty.optim_recipes import optim_cifar10_resnet18
 from torch_uncertainty.routines import ClassificationRoutine
@@ -87,7 +87,10 @@ def train(
     )
 
     # Prepare routine
+    # Wraps the base model with Monte Carlo Dropout, creating an ensemble of 
+    # 16 models that use dropout at inference time (for uncertainty estimation).
     mc_model = mc_dropout(model, num_estimators=16, last_layer=False)
+    # Creates a training and evaluation routine for classification tasks.
     routine = ClassificationRoutine(
         num_classes=sample_datamodule.num_classes,
         model=mc_model,

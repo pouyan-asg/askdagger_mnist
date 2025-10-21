@@ -1,3 +1,8 @@
+"""
+It streamlines data handling and augmentation for MNIST experiments, including OOD and 
+shift evaluation, making it easy to use in PyTorch Lightning workflows.
+"""
+
 import warnings
 import logging
 from typing import Literal, List
@@ -6,6 +11,7 @@ from pathlib import Path
 from torch import nn
 from torch.utils.data import DataLoader
 from torch.utils.data import Subset
+from sklearn.model_selection import train_test_split
 
 import torchvision.transforms as T
 from torchvision.datasets import MNIST, FashionMNIST
@@ -13,7 +19,7 @@ from torchvision.datasets import MNIST, FashionMNIST
 from torch_uncertainty.datamodules import TUDataModule
 from torch_uncertainty.datasets.classification import MNISTC, NotMNIST
 from torch_uncertainty.transforms import Cutout
-from torch_uncertainty.utils import create_train_val_split
+# from torch_uncertainty.utils import create_train_val_split
 
 
 class CustomMNISTDataModule(TUDataModule):
@@ -52,6 +58,8 @@ class CustomMNISTDataModule(TUDataModule):
             ood_ds (str): Which out-of-distribution dataset to use. Defaults to
                 ``"fashion"``; `fashion` stands for FashionMNIST and `notMNIST` for
                 notMNIST.
+                    - FashionMNIST: Images of clothing items (10 classes).
+                    - NotMNIST: Images of letters (A-J, 10 classes).
             val_split (float): Share of samples to use for validation. Defaults
                 to ``0.0``.
             num_workers (int): Number of workers to use for data loading. Defaults
@@ -71,6 +79,7 @@ class CustomMNISTDataModule(TUDataModule):
             num_workers=num_workers,
             pin_memory=pin_memory,
             persistent_workers=persistent_workers,
+            eval_batch_size=batch_size,
         )
         self.prepared = False
         self.eval_ood = eval_ood
@@ -88,13 +97,16 @@ class CustomMNISTDataModule(TUDataModule):
         self.shift_dataset = MNISTC
         self.shift_severity = 1
 
+        # Sets up basic augmentation: random crop if enabled, otherwise identity (no change).
         if basic_augment:
             basic_transform = T.RandomCrop(28, padding=4)
         else:
             basic_transform = nn.Identity()
-
+            
+        # Applies cutout augmentation (randomly masks part of the image) if specified, otherwise identity.
         main_transform = Cutout(cutout) if cutout else nn.Identity()
 
+        # allows for chaining together multiple image transformations
         self.train_transform = T.Compose(
             [
                 T.ToTensor(),
@@ -142,6 +154,8 @@ class CustomMNISTDataModule(TUDataModule):
             self.ood_dataset(self.root, download=True)
         if self.eval_shift:
             self.shift_dataset(self.root, download=True)
+        
+        # Holds the loaded, transformed training dataset for further processing.
         self.full = self.dataset(
             self.root,
             train=True,
@@ -150,12 +164,16 @@ class CustomMNISTDataModule(TUDataModule):
         )
 
     def setup(self, stage: Literal["fit", "test"] | None = None) -> None:
+        """
+        Sets up train, validation, and test splits, applies subset selection 
+        and transformations, and prepares OOD/shift datasets if needed.
+        """
         if stage == "fit" or stage is None:
             full = self.full
             if self.subset is not None:
                 full = Subset(full, self.subset)
             if self.val_split:
-                self.train, self.val = create_train_val_split(
+                self.train, self.val = train_test_split(
                     full,
                     self.val_split,
                     self.test_transform,
